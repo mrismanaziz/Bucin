@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue&display=swap');
+
+body {
+  font-family: 'Comic Neue', cursive;
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: #e3f2fd;
+}
+
+.box div{
+  height: 100px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+img {
+  width: 120px;
+  object-fit: cover;
+}
+
+.center {
+  display: grid;
+  align-self: center;
+  justify-items: center;
+}
